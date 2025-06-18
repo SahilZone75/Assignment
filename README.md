@@ -26,8 +26,8 @@ This is a simple React application that fetches and displays products from the [
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/product-fetch-app.git
-cd product-fetch-app
+git clone https://github.com/SahilZone75/Assignment.git
+cd Assignment
 
 # Install all dependencies
 npm install
@@ -36,6 +36,6 @@ npm install
 npm run dev
 
 # Now open in browser:
-# http://localhost:3000
-
+# http://localhost:5174
+```
    
