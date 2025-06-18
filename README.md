@@ -33,7 +33,7 @@ cd product-fetch-app
 npm install
 
 # Start the development server
-npm start
+npm run dev
 
 # Now open in browser:
 # http://localhost:3000
