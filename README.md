@@ -1,12 +1,41 @@
-# React + Vite
+# 🛍️ Product Fetching App (React + FakeStore API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches and displays products from the [FakeStore API](https://fakestoreapi.com/). It features a clean UI built with Tailwind CSS and includes a live product search functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Fetches data from an external API using `fetch()`.
+- Displays product cards in a responsive grid layout.
+- Shows a loading spinner while data is being fetched.
+- Includes a real-time search bar to filter products.
+- Uses React hooks like `useState()` and `useEffect()`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- FakeStore API
+
+---
+
+## 🛠️ Installation & Running the App
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/product-fetch-app.git
+cd product-fetch-app
+
+# Install all dependencies
+npm install
+
+# Start the development server
+npm start
+
+# Now open in browser:
+# http://localhost:3000
+
+   
